@@ -1,0 +1,4 @@
+for I = 1,100000000000 do
+game:GetService("ReplicatedStorage"):WaitForChild("SharedModule"):WaitForChild("Remotes"):WaitForChild("Spin"):FireServer()
+wait()
+end
