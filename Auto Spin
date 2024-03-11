@@ -1,4 +1,4 @@
-for I = 1,100000000000 do
+while true do
 game:GetService("ReplicatedStorage"):WaitForChild("SharedModule"):WaitForChild("Remotes"):WaitForChild("Spin"):FireServer()
-wait()
+wait(0)
 end
